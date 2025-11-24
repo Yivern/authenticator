@@ -1,0 +1,97 @@
+main {
+    padding-top: 2em;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+input {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.contImg {
+    margin-top: 1em;
+}
+
+img {
+    border: 1px solid gray;
+    max-width: 100%;
+    margin-bottom: 1em;
+    border-radius: 30px;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transition: 0.2s;
+}
+
+pre {
+    background-color: #dbdbdb;
+    padding: 1em;
+    border-radius: 7px;
+    overflow-x: auto;
+    font-family: monospace;
+    font-size: 20px;
+    width: 830px;
+}
+
+.modal {
+    position: absolute;
+    height: 640px;
+    width: 750px;
+    margin: auto;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.contModal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contModal input {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 25% !important;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contModal button {
+    margin: auto;
+    width: 25% !important;
+    border-radius: 10px;
+}
+
+.contModal .buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
